@@ -1,0 +1,423 @@
+
+*{
+
+ 
+
+  padding: 0;
+
+  margin:0;
+
+}
+
+/* .body{
+
+  display: flex;
+
+  justify-content: center;
+
+} */
+
+body {
+
+ 
+
+  background-image: url(bg.jpg);
+
+ 
+
+  background-repeat: no-repeat;
+
+ 
+
+  background-position: center;
+
+ 
+
+  background-size: cover;
+
+ 
+
+ 
+
+ 
+
+}
+
+.Portal{
+
+ 
+
+ float:right;
+
+  color:white;
+
+  padding-left:20px;
+
+ 
+
+ 
+
+}
+
+.globe{
+
+  height: 120px;
+
+}
+
+ 
+
+.topnav {
+
+padding-top: 24px;
+
+margin-top: 24px;
+
+  height: 56px;
+
+ 
+
+  display: flex;
+
+ 
+
+  justify-content: center;
+
+ 
+
+ 
+
+  align-items: center;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.Home {
+
+  background-color: black;
+
+  color: #9DCCE9;
+
+ 
+
+ 
+
+  font-weight: 700;
+
+ 
+
+  padding: 10px 25px;
+
+ 
+
+ 
+
+ 
+
+}
+
+ 
+
+.title{
+
+ 
+
+  color:white;
+
+ 
+
+  background-color: rgba(63, 96, 146, 0.7);
+
+ 
+
+ 
+
+  display:flex;
+
+  padding: 20px;
+
+}
+
+.information{
+
+  line-height: 10px;
+
+}
+
+ 
+
+ 
+
+li {
+
+ 
+
+  list-style-type: none;
+
+ 
+
+}
+
+ 
+
+ul{
+
+ 
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+ 
+
+  display: flex;
+
+align-items: center;
+
+ 
+
+  height: 56px;
+
+ 
+
+font-size :14px;
+
+ 
+
+font-family: system-ui;
+
+ 
+
+ 
+
+}
+
+ 
+
+ 
+
+li:hover{
+
+ 
+
+  background-color: #9DCCE9;
+
+ 
+
+}
+
+ 
+
+.header {
+
+ 
+
+  display: flex;
+
+ 
+
+  justify-content: space-between;
+
+ 
+
+  align-items: center;
+
+ 
+
+  padding: 20px;
+
+ 
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+ 
+
+  color: white;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+/* Style Section */
+
+ 
+
+.style {
+
+ 
+
+  display: flex;
+
+ 
+
+  align-items: center;
+
+ 
+
+  justify-content: center;
+
+ 
+
+  flex-direction: column;
+
+ 
+
+}
+
+ 
+
+ li a ::after{
+
+  content:"|";
+
+  color :aliceblue;
+
+}
+
+/* Title Styles */
+
+ 
+
+.title1 {
+
+ 
+
+  margin: 5px;
+
+ 
+
+ 
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+.row {
+
+ 
+
+ 
+
+padding:14px;
+
+  display: flex;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+.content {
+
+  width:880px;
+
+line-height:22px;
+
+ background-color: rgba(0, 0, 0, 0.7);
+
+font-size : 14px;
+
+  color: white;
+
+  font-family: system-ui;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.footer {
+
+ 
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+ 
+
+    color: white;
+
+ 
+
+    text-align: center;
+
+ 
+
+    padding: 10px 0;
+
+ 
+
+    width: 949px;
+
+ 
+
+    margin: auto;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.footerSize{
+
+ 
+
+padding-top:20px;
+
+ 
+
+padding: 20px;
+
+ 
+
+}
+
+a:link {
+
+  color:#9DCCE9;
+
+}
+nav::before{
+  content:"Read this -";
+}
